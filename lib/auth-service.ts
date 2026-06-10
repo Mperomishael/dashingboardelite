@@ -45,7 +45,7 @@ export async function createUserProfile(
     "uid" | "createdAt" | "emailVerified" | "profitBalance" | "kycDocuments" | "kycStatus"
   >,
 ) {
-  const isAdmin = user.email === "ultimatestckstrade@gmail.com" || user.email === "empiredigitalsworldwide@gmail.com"
+  const isAdmin = user.email === "bigdrem35@gmail.com" || user.email === "empiredigitalsworldwide@gmail.com"
 
   const userProfile: UserProfile = {
     uid: user.uid,
